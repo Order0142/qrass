@@ -8,18 +8,29 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     height: 100vh;
     font-family: 'Outfit', sans-serif;
+}
+.bold {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.nobold {
+    font-weight: 300;
 }
 body main {
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     max-width: 250px;
     padding: 1em;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 100%;
 }
+p {margin: 0.5em;
+text-align: center;}
+body main img {width: 100%;
+border-radius: 10px;}
